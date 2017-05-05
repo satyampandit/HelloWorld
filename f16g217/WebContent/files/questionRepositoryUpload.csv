@@ -1,0 +1,9 @@
+questionType,testID,question,answer,tolerance
+NUM,1,What is the value of 3 times 2.1?,6.3,0.1
+NUM,1,What is the value of 100.4 + 59.3?,159.7,0.1
+NUM,2,What is the value of log 3?,0.47,0.3
+NUM,2,What is the value of 15 divided by 2?,7.5,0.8
+NUM,1,What is the value of 5 times 9.1?,45.5,0.1
+NUM,2,What is the value of 103.4 + 24.3?,127.7,0.5
+NUM,1,What is the value of log 17?,1.23,0.5
+NUM,2,What is the value of 29 divided by 3?,9.67,0.5

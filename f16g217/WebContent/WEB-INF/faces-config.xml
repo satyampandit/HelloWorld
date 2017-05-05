@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config
+    xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+    version="2.2">
+	
+	<managed-bean>
+		<managed-bean-name>databaseLoginBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.DatabaseLoginBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+		<managed-property>
+			<property-name>userName</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>root</value>
+		</managed-property>
+		<managed-property>
+			<property-name>password</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>password</value>
+		</managed-property>
+		<managed-property>
+			<property-name>host</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>localHost</value>
+		</managed-property>
+		<managed-property>
+			<property-name>rdbms</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>MySQL</value>
+		</managed-property>
+		<managed-property>
+			<property-name>dbSchema</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>f16g217</value>
+		</managed-property>
+		<managed-property>
+			<property-name>portNo</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>3306</value>
+		</managed-property>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>userLoginBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.UserLoginBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+		<managed-property>
+			<property-name>userType</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>admin</value>
+		</managed-property>
+		<managed-property>
+			<property-name>userName</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>admin</value>
+		</managed-property>
+		<managed-property>
+			<property-name>password</property-name>
+			<property-class>java.lang.String</property-class>
+			<value>admin</value>
+		</managed-property>
+	</managed-bean>
+	
+	
+
+	<managed-bean>
+		<managed-bean-name>databaseAccessMenuBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.DatabaseAccessMenuBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>testBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.TestBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>testPaperBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.TestPaperBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>scoreAnalysisBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.ScoreAnalysisBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>rosterAccessMenuBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.RosterAccessMenuBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<managed-bean>
+		<managed-bean-name>chartBean</managed-bean-name>
+		<managed-bean-class>edu.uic.ids.model.ChartBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+</faces-config>
