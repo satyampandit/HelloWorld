@@ -3,6 +3,7 @@ package edu.uic.ids.model;
 import java.io.Serializable;
 import java.sql.ResultSet;
 import java.util.List;
+import java.util.*;
 
 public class DatabaseAccessMenuBean implements Serializable, Cloneable { 
 
